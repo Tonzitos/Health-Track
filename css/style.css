@@ -10,6 +10,10 @@ body {
     background-position: center;
 }
 
+footer{
+    text-align: center;
+}
+
 .title{
     text-align: center;
     margin: 5px;
@@ -86,10 +90,42 @@ nav{
     text-align: right;
 }
 
+.title-page{
+    text-align: center;
+    margin: 15px;
+}
+
+.title-page>h2{
+    font-size: 23px;
+}
+
+.secundary-p{
+    margin-top: 40px;
+}
 
 .add-activity>button{
     margin-top: 7px;
 }
+
+.note-for-user>p{
+    margin-top: 50px;
+    color: #7a7977;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div.ht-dd-button {
     transition-duration: 0.4s;
