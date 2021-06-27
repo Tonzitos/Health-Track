@@ -1,0 +1,222 @@
+body {
+    padding: auto;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif !important;
+    background-image: url("../src/photo-pesos.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 750px auto;
+    background-position: 50% 0;
+    background-color: rgb(217, 210, 210) !important;
+}
+
+header{
+    margin: auto;
+    max-width: 750px;
+}
+
+main{
+    margin: auto;
+    max-width: 675px;
+}
+
+footer{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    color: #5E2471;
+    margin: 5px;
+    padding: 7px;
+}
+
+
+.tl-home{
+    text-align: center;
+    margin: auto;
+}
+
+.tl-home > h1{
+    text-align: center;
+    margin-left: -60px;
+    color: #5E2471;
+}
+
+.wrap-btns{
+    margin: auto;
+    max-width: 351px;
+}
+
+.in-bt-spec{
+    margin: 5px auto, 0, auto;
+    padding: 5px 15px;
+    /* margin: 75px auto; */
+}
+
+.tl-initial{
+    margin: 200px auto 150px;
+}
+
+.tl-initial>.title>h1{
+    font-size: 45px;
+}
+
+nav{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(217, 210, 210, 0.5);
+}
+
+.add-activity{
+    margin-top: 78px;
+}
+
+.add-activity>button{
+    margin-top: 10px;
+}
+
+.add-activity>a{
+    margin-top: 10px;
+}
+
+.ht-dd-button {
+    width: 100%;
+    color: black;
+    border: none;
+    padding: 5px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.welcome{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 25px;
+}
+
+.info>table>tbody>tr>td{
+    text-align: right;
+}
+
+.tl-login{
+    margin: 35px auto 50px;
+}
+
+.note-for-user>p{
+    text-align: center;
+    color: #7a7977;
+}
+
+
+.social-m>button{
+    margin-top: 7px;
+}
+
+.title-page{
+    text-align: center;
+    margin: 45px auto;
+}
+
+.title-page>h2{
+    font-size: 23px;
+}
+
+.secundary-p{
+    margin-top: 40px;
+}
+
+
+@media (max-width: 420px) {
+    body {
+        background-size: auto 100%;
+    }
+
+    .title{
+        margin: 5px;
+        padding: 7px;
+    }
+
+    .tl-initial{
+        margin: 200px auto 150px;
+    }
+    
+    .tl-initial>.title>h1{
+        font-size: 45px;
+    }
+    
+    .tl-login{
+        margin: 35px auto 50px;
+    }
+    
+    .tl-login>.title>h1{
+        font-size: 40px;
+    }
+    
+    .tl-home{
+        margin: auto;
+    }
+    
+    .tl-home > h1{
+        font-size: 20px;
+        margin-left: -30px;
+        color: #5E2471;
+    }
+    
+    main{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .in-bt-spec{
+        margin: 5px auto, 0, auto;
+        padding: 5px 15px;
+        /* margin: 75px auto; */
+    }
+
+    .social-m>button{
+        margin-top: 7px;
+    }
+
+    .welcome{
+        font-size: 25px;
+        margin: 50px auto;
+    }
+
+    .title-page{
+        margin: 15px;
+    }
+
+    .title-page>h2{
+        font-size: 23px;
+    }
+    
+    .secundary-p{
+        margin-top: 40px;
+    }
+    
+    .add-activity{
+        margin-top: 78px;
+    }
+
+    .add-activity>button{
+        margin-top: 10px;
+    }
+
+    .add-activity>a{
+        margin-top: 10px;
+    }
+    
+    .note-for-user>p{
+        /* margin-top: 50px; */
+    }
+}
