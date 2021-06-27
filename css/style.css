@@ -80,6 +80,10 @@ nav{
     margin-top: 10px;
 }
 
+.add-activity>a{
+    margin-top: 10px;
+}
+
 .ht-dd-button {
     width: 100%;
     color: black;
@@ -108,6 +112,7 @@ nav{
 }
 
 .note-for-user>p{
+    text-align: center;
     color: #7a7977;
 }
 
@@ -206,8 +211,12 @@ nav{
     .add-activity>button{
         margin-top: 10px;
     }
+
+    .add-activity>a{
+        margin-top: 10px;
+    }
     
     .note-for-user>p{
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 }
